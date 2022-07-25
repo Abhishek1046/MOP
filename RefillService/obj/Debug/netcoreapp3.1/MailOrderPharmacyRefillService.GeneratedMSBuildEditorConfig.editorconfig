@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MailOrderPharmacyRefillService
+build_property.ProjectDir = C:\MOP\RefillService\
