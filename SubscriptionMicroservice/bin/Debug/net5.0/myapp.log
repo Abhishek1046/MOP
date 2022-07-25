@@ -1,0 +1,444 @@
+2021-04-15 14:19:40,256 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 14:19:40,272 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 14:19:40,273 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 14:24:05,302 [18] ERROR SubscriptionMicroservice.Controllers.SubscriptionController - System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7001))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.DrugAvailable(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 77
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.AddSubscription(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 90
+   at SubscriptionMicroservice.Controllers.SubscriptionController.Post(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\Controllers\SubscriptionController.cs:line 65 : One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7001))
+2021-04-15 14:24:56,100 [7] ERROR SubscriptionMicroservice.Controllers.SubscriptionController - System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7001))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.DrugAvailable(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 77
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.AddSubscription(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 90
+   at SubscriptionMicroservice.Controllers.SubscriptionController.Post(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\Controllers\SubscriptionController.cs:line 65 : One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7001))
+2021-04-15 14:25:28,255 [9] ERROR SubscriptionMicroservice.Controllers.SubscriptionController - System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7001))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.DrugAvailable(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 77
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.AddSubscription(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 90
+   at SubscriptionMicroservice.Controllers.SubscriptionController.Post(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\Controllers\SubscriptionController.cs:line 65 : One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7001))
+2021-04-15 14:25:42,785 [12] ERROR SubscriptionMicroservice.Controllers.SubscriptionController - System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7001))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.DrugAvailable(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 77
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.AddSubscription(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 90
+   at SubscriptionMicroservice.Controllers.SubscriptionController.Post(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\Controllers\SubscriptionController.cs:line 65 : One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7001))
+2021-04-15 14:27:18,338 [17] ERROR SubscriptionMicroservice.Controllers.SubscriptionController - System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7002))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7002)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.CheckPaymentStatus(Int32 sub_id) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 108
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.RemoveSubscription(Int32 sub_id) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 121
+   at SubscriptionMicroservice.Controllers.SubscriptionController.Delete(Int32 id) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\Controllers\SubscriptionController.cs:line 90 : One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7002))
+2021-04-15 14:27:29,688 [15] ERROR SubscriptionMicroservice.Controllers.SubscriptionController - System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7002))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7002)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.CheckPaymentStatus(Int32 sub_id) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 108
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.RemoveSubscription(Int32 sub_id) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 121
+   at SubscriptionMicroservice.Controllers.SubscriptionController.Delete(Int32 id) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\Controllers\SubscriptionController.cs:line 90 : One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7002))
+2021-04-15 14:33:12,142 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 14:33:12,160 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 14:33:12,160 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 14:34:30,901 [13] ERROR SubscriptionMicroservice.Controllers.SubscriptionController - System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7001))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.DrugAvailable(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 77
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.AddSubscription(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 90
+   at SubscriptionMicroservice.Controllers.SubscriptionController.Post(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\Controllers\SubscriptionController.cs:line 65 : One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7001))
+2021-04-15 14:36:31,451 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 14:36:31,472 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 14:36:31,473 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 15:48:18,517 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 15:48:18,541 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 15:48:18,542 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 19:39:29,564 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 19:39:29,584 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 19:39:29,584 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 19:40:54,038 [9] ERROR SubscriptionMicroservice.Controllers.SubscriptionController - System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:5001))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.DrugAvailable(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 78
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.AddSubscriptionAsync(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 91
+   at SubscriptionMicroservice.Controllers.SubscriptionController.Post(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\Controllers\SubscriptionController.cs:line 65 : One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:5001))
+2021-04-15 19:41:54,548 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 19:41:54,569 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 19:41:54,570 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 19:42:37,129 [13] ERROR SubscriptionMicroservice.Controllers.SubscriptionController - System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:5001))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.DrugAvailable(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 78
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.AddSubscriptionAsync(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 91
+   at SubscriptionMicroservice.Controllers.SubscriptionController.Post(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\Controllers\SubscriptionController.cs:line 65 : One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:5001))
+2021-04-15 19:43:42,383 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 19:43:42,404 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 19:43:42,404 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 19:44:06,105 [8] ERROR SubscriptionMicroservice.Controllers.SubscriptionController - System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:5001))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.DrugAvailable(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 78
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.AddSubscriptionAsync(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 91
+   at SubscriptionMicroservice.Controllers.SubscriptionController.Post(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\Controllers\SubscriptionController.cs:line 65 : One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:5001))
+2021-04-15 19:50:18,205 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5003
+2021-04-15 19:50:18,223 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 19:50:18,223 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 19:50:18,224 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 19:51:48,204 [17] ERROR SubscriptionMicroservice.Controllers.SubscriptionController - System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:5001))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.DrugAvailable(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 78
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.AddSubscriptionAsync(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 91
+   at SubscriptionMicroservice.Controllers.SubscriptionController.Post(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\Controllers\SubscriptionController.cs:line 65 : One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:5001))
+2021-04-15 19:53:29,266 [10] ERROR SubscriptionMicroservice.Controllers.SubscriptionController - System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:5001))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.DrugAvailable(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 78
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.AddSubscriptionAsync(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 91
+   at SubscriptionMicroservice.Controllers.SubscriptionController.Post(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\Controllers\SubscriptionController.cs:line 65 : One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:5001))
+2021-04-15 19:58:03,986 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5003
+2021-04-15 19:58:04,009 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 19:58:04,012 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 19:58:04,014 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 19:58:44,816 [4] ERROR SubscriptionMicroservice.Controllers.SubscriptionController - System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:700))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:700)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.CheckPaymentStatus(Int32 sub_id) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 115
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.RemoveSubscription(Int32 sub_id) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 128
+   at SubscriptionMicroservice.Controllers.SubscriptionController.Delete(Int32 id) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\Controllers\SubscriptionController.cs:line 85 : One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:700))
+2021-04-15 20:00:37,186 [17] ERROR SubscriptionMicroservice.Controllers.SubscriptionController - System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:5001))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.DrugAvailable(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 78
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.AddSubscriptionAsync(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 91
+   at SubscriptionMicroservice.Controllers.SubscriptionController.Post(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\Controllers\SubscriptionController.cs:line 65 : One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:5001))
+2021-04-15 20:01:20,873 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5003
+2021-04-15 20:01:20,898 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 20:01:20,899 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 20:01:20,899 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 20:02:01,917 [9] ERROR SubscriptionMicroservice.Controllers.SubscriptionController - System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:5001))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5001)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.DrugAvailable(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 78
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.AddSubscriptionAsync(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 91
+   at SubscriptionMicroservice.Controllers.SubscriptionController.Post(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\Controllers\SubscriptionController.cs:line 65 : One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:5001))
+2021-04-15 20:03:39,003 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5003
+2021-04-15 20:03:39,026 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 20:03:39,026 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 20:03:39,027 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 20:04:06,756 [14] ERROR SubscriptionMicroservice.Controllers.SubscriptionController - System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.)
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.DrugAvailable(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 84
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at SubscriptionMicroservice.DAL.SubscriptionRepository.AddSubscriptionAsync(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\DAL\SubscriptionRepository.cs:line 91
+   at SubscriptionMicroservice.Controllers.SubscriptionController.Post(SubscriptionDetails subscription) in C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice\Controllers\SubscriptionController.cs:line 65 : One or more errors occurred. (Object reference not set to an instance of an object.)
+2021-04-15 20:07:09,172 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5003
+2021-04-15 20:07:09,198 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 20:07:09,199 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 20:07:09,199 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 20:09:38,648 [2] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2021-04-15 20:09:44,273 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5003
+2021-04-15 20:09:44,297 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 20:09:44,297 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 20:09:44,297 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 20:15:20,055 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5003
+2021-04-15 20:15:20,069 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 20:15:20,070 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 20:15:20,070 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 20:17:16,037 [13] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2021-04-15 20:23:00,196 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5003
+2021-04-15 20:23:00,222 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 20:23:00,222 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 20:23:00,223 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 20:25:39,734 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5003
+2021-04-15 20:25:39,751 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 20:25:39,752 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 20:25:39,752 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 20:27:29,299 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5003
+2021-04-15 20:27:29,323 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 20:27:29,324 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 20:27:29,324 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 20:35:31,945 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5003
+2021-04-15 20:35:31,957 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-15 20:35:31,958 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-15 20:35:31,958 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\SubscriptionMicroservice
+2021-04-15 20:38:37,317 [2] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2021-04-19 12:08:58,937 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5003
+2021-04-19 12:08:58,951 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-19 12:08:58,951 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-19 12:08:58,951 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\Git\Mail_Order_Pharmacy\SubscriptionMicroservice
+2021-04-19 12:27:54,180 [2] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2021-04-19 12:44:32,589 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5003
+2021-04-19 12:44:32,613 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-19 12:44:32,614 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-19 12:44:32,614 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\Git\Mail_Order_Pharmacy\SubscriptionMicroservice
+2021-04-19 12:45:07,927 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5003
+2021-04-19 12:45:07,940 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-19 12:45:07,940 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-19 12:45:07,940 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\Git\Mail_Order_Pharmacy\SubscriptionMicroservice
+2021-04-19 12:55:46,447 [9] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2021-04-19 12:55:54,011 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5003
+2021-04-19 12:55:54,027 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-04-19 12:55:54,027 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-04-19 12:55:54,028 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\Ajith\Desktop\Git\Mail_Order_Pharmacy\SubscriptionMicroservice
+2021-04-19 13:28:17,403 [2] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2022-07-25 10:38:07,962 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5003
+2022-07-25 10:38:08,000 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-07-25 10:38:08,002 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-07-25 10:38:08,051 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\DELL\Downloads\Mail order pharmacy dotnet\Mail_Order_Pharmacy-master\Mail_Order_Pharmacy-master\SubscriptionMicroservice
