@@ -1,0 +1,87 @@
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.exe
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.deps.json
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.runtimeconfig.json
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.runtimeconfig.dev.json
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.dll
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.pdb
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.AssemblyInfo.cs
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\staticwebassets\AuthenticationServiceAPI.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\staticwebassets\AuthenticationServiceAPI.StaticWebAssets.xml
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\AuthenticationServiceAPI.styles.css
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.csproj.CopyComplete
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.dll
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.pdb
+C:\Users\user\Desktop\Mail order pharmacy\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.genruntimeconfig.cache
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.exe
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.deps.json
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.runtimeconfig.json
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.runtimeconfig.dev.json
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.dll
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.pdb
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.csprojAssemblyReference.cache
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.AssemblyInfo.cs
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\staticwebassets\AuthenticationServiceAPI.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\staticwebassets\AuthenticationServiceAPI.StaticWebAssets.xml
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\AuthenticationServiceAPI.styles.css
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.csproj.CopyComplete
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.dll
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.pdb
+C:\Users\user\Desktop\All MicroServices\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.genruntimeconfig.cache
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\appsettings.json
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.StaticWebAssets.xml
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.exe
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.deps.json
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.runtimeconfig.json
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.runtimeconfig.dev.json
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.dll
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\AuthenticationServiceAPI.pdb
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\MOP\MOP\AuthenticationServiceAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+F:\MOP\MOP\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.csproj.AssemblyReference.cache
+F:\MOP\MOP\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.GeneratedMSBuildEditorConfig.editorconfig
+F:\MOP\MOP\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.AssemblyInfoInputs.cache
+F:\MOP\MOP\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.AssemblyInfo.cs
+F:\MOP\MOP\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.csproj.CoreCompileInputs.cache
+F:\MOP\MOP\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.MvcApplicationPartsAssemblyInfo.cache
+F:\MOP\MOP\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\staticwebassets\AuthenticationServiceAPI.StaticWebAssets.Manifest.cache
+F:\MOP\MOP\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.RazorTargetAssemblyInfo.cache
+F:\MOP\MOP\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.csproj.CopyComplete
+F:\MOP\MOP\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.dll
+F:\MOP\MOP\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.pdb
+F:\MOP\MOP\AuthenticationServiceAPI\obj\Debug\netcoreapp3.1\AuthenticationServiceAPI.genruntimeconfig.cache
