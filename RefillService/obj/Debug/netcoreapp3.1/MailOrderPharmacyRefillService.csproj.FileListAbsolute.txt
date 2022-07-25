@@ -1,0 +1,144 @@
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\log4net.config
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\appsettings.json
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.exe
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\RefillService.yaml
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.deps.json
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.runtimeconfig.json
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.runtimeconfig.dev.json
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.pdb
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\log4net.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.csproj.AssemblyReference.cache
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.GeneratedMSBuildEditorConfig.editorconfig
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.AssemblyInfoInputs.cache
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.AssemblyInfo.cs
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.csproj.CoreCompileInputs.cache
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.MvcApplicationPartsAssemblyInfo.cs
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.MvcApplicationPartsAssemblyInfo.cache
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\staticwebassets\MailOrderPharmacyRefillService.StaticWebAssets.Manifest.cache
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\staticwebassets\MailOrderPharmacyRefillService.StaticWebAssets.xml
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\scopedcss\bundle\MailOrderPharmacyRefillService.styles.css
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.RazorTargetAssemblyInfo.cache
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.csproj.CopyComplete
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.dll
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.pdb
+C:\MailOrderPharmacy-master\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.genruntimeconfig.cache
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\log4net.config
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.exe
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\RefillService.yaml
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.deps.json
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.runtimeconfig.json
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.runtimeconfig.dev.json
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.pdb
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.csproj.AssemblyReference.cache
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.AssemblyInfoInputs.cache
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.AssemblyInfo.cs
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.csproj.CoreCompileInputs.cache
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.MvcApplicationPartsAssemblyInfo.cs
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.MvcApplicationPartsAssemblyInfo.cache
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\staticwebassets\MailOrderPharmacyRefillService.StaticWebAssets.Manifest.cache
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\staticwebassets\MailOrderPharmacyRefillService.StaticWebAssets.xml
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\scopedcss\bundle\MailOrderPharmacyRefillService.styles.css
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.RazorTargetAssemblyInfo.cache
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.csproj.CopyComplete
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.dll
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.pdb
+C:\Mail order pharmacy\MailOrderPharmacy_RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.genruntimeconfig.cache
+C:\MOP\RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.csproj.AssemblyReference.cache
+C:\MOP\RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.GeneratedMSBuildEditorConfig.editorconfig
+C:\MOP\RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.AssemblyInfoInputs.cache
+C:\MOP\RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.AssemblyInfo.cs
+C:\MOP\RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.csproj.CoreCompileInputs.cache
+C:\MOP\RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.MvcApplicationPartsAssemblyInfo.cs
+C:\MOP\RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.MvcApplicationPartsAssemblyInfo.cache
+C:\MOP\RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.dll
+C:\MOP\RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.pdb
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\log4net.config
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\appsettings.json
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.exe
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\RefillService.yaml
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.deps.json
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.runtimeconfig.json
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.runtimeconfig.dev.json
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.pdb
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\log4net.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\MOP\RefillService\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\MOP\RefillService\obj\Debug\netcoreapp3.1\staticwebassets\MailOrderPharmacyRefillService.StaticWebAssets.Manifest.cache
+C:\MOP\RefillService\obj\Debug\netcoreapp3.1\staticwebassets\MailOrderPharmacyRefillService.StaticWebAssets.xml
+C:\MOP\RefillService\obj\Debug\netcoreapp3.1\scopedcss\bundle\MailOrderPharmacyRefillService.styles.css
+C:\MOP\RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.RazorTargetAssemblyInfo.cache
+C:\MOP\RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.csproj.CopyComplete
+C:\MOP\RefillService\obj\Debug\netcoreapp3.1\MailOrderPharmacyRefillService.genruntimeconfig.cache
