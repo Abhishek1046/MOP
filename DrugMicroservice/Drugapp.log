@@ -1,0 +1,209 @@
+INFO  10:00:08 Application started. Press Ctrl+C to shut down.
+INFO  10:00:08 Application started. Press Ctrl+C to shut down.
+INFO  10:00:08 Hosting environment: Development
+INFO  10:00:08 Hosting environment: Development
+INFO  10:00:08 Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice
+INFO  10:00:08 Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice
+INFO  10:00:31  Http Get Request for Drug Details by Location and ID
+INFO  10:41:56 Application started. Press Ctrl+C to shut down.
+INFO  10:41:56 Application started. Press Ctrl+C to shut down.
+INFO  10:41:56 Hosting environment: Development
+INFO  10:41:56 Hosting environment: Development
+INFO  10:41:56 Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice
+INFO  10:41:56 Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice
+INFO  10:42:18  Http GET Request for Drug Details By Id
+INFO  10:42:33  Http GET Request for Drug Details By Name
+INFO  10:42:58  Http Get Request for Drug Details by Location and ID
+INFO  10:43:06  Http Get Request for Drug Details by Location and ID
+INFO  11:49:53 Application started. Press Ctrl+C to shut down.
+INFO  11:49:53 Application started. Press Ctrl+C to shut down.
+INFO  11:49:53 Hosting environment: Development
+INFO  11:49:53 Hosting environment: Development
+INFO  11:49:53 Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice
+INFO  11:49:53 Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice
+INFO  11:50:25  Http GET Request for Drug Details By Id
+INFO  11:50:37  Http GET Request for Drug Details By Id
+INFO  11:04:22 Now listening on: http://localhost:5001
+INFO  11:04:23 Now listening on: http://localhost:5001
+INFO  11:04:23 Application started. Press Ctrl+C to shut down.
+INFO  11:04:23 Application started. Press Ctrl+C to shut down.
+INFO  11:04:23 Hosting environment: Development
+INFO  11:04:23 Hosting environment: Development
+INFO  11:04:23 Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice
+INFO  11:04:23 Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice
+WARN  11:04:36 Failed to determine the https port for redirect.
+WARN  11:04:36 Failed to determine the https port for redirect.
+INFO  11:06:29  Http GET Request for Drug Details By Id
+INFO  11:07:20 Application is shutting down...
+INFO  11:07:20 Application is shutting down...
+INFO  11:07:57 Now listening on: http://localhost:5001
+INFO  11:07:57 Now listening on: http://localhost:5001
+INFO  11:07:57 Application started. Press Ctrl+C to shut down.
+INFO  11:07:57 Application started. Press Ctrl+C to shut down.
+INFO  11:07:57 Hosting environment: Development
+INFO  11:07:57 Hosting environment: Development
+INFO  11:07:57 Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice
+INFO  11:07:57 Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice
+WARN  11:08:06 Failed to determine the https port for redirect.
+WARN  11:08:06 Failed to determine the https port for redirect.
+INFO  11:08:10  Http GET Request for Drug Details By Id
+INFO  11:08:15  Http Get Request for Drug Details by Location and ID
+ERROR 11:08:15 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DrugMicroservice.Repositories.DrugRepository.getLocationQty(String name, String location) in C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice\Repositories\DrugRepository.cs:line 49
+   at DrugMicroservice.Controllers.DrugsController.getDrugStockByLoc(String name, String drug_loc) in C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice\Controllers\DrugsController.cs:line 72
+   at lambda_method4(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:08:15 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DrugMicroservice.Repositories.DrugRepository.getLocationQty(String name, String location) in C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice\Repositories\DrugRepository.cs:line 49
+   at DrugMicroservice.Controllers.DrugsController.getDrugStockByLoc(String name, String drug_loc) in C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice\Controllers\DrugsController.cs:line 72
+   at lambda_method4(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:08:47  Http Get Request for Drug Details by Location and ID
+ERROR 11:08:47 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DrugMicroservice.Repositories.DrugRepository.getLocationQty(String name, String location) in C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice\Repositories\DrugRepository.cs:line 49
+   at DrugMicroservice.Controllers.DrugsController.getDrugStockByLoc(String name, String drug_loc) in C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice\Controllers\DrugsController.cs:line 72
+   at lambda_method4(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:08:47 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DrugMicroservice.Repositories.DrugRepository.getLocationQty(String name, String location) in C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice\Repositories\DrugRepository.cs:line 49
+   at DrugMicroservice.Controllers.DrugsController.getDrugStockByLoc(String name, String drug_loc) in C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice\Controllers\DrugsController.cs:line 72
+   at lambda_method4(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:09:42  Http Get Request for Drug Details by Location and ID
+ERROR 11:09:42 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DrugMicroservice.Repositories.DrugRepository.getLocationQty(String name, String location) in C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice\Repositories\DrugRepository.cs:line 49
+   at DrugMicroservice.Controllers.DrugsController.getDrugStockByLoc(String name, String drug_loc) in C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice\Controllers\DrugsController.cs:line 72
+   at lambda_method4(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:09:42 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DrugMicroservice.Repositories.DrugRepository.getLocationQty(String name, String location) in C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice\Repositories\DrugRepository.cs:line 49
+   at DrugMicroservice.Controllers.DrugsController.getDrugStockByLoc(String name, String drug_loc) in C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice\Controllers\DrugsController.cs:line 72
+   at lambda_method4(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:10:05  Http Get Request for Drug Details by Location and ID
+INFO  11:10:15  Http Get Request for Drug Details by Location and ID
+INFO  11:10:25  Http Get Request for Drug Details by Location and ID
+INFO  07:11:45 Now listening on: http://localhost:5001
+INFO  07:11:45 Now listening on: http://localhost:5001
+INFO  07:11:45 Application started. Press Ctrl+C to shut down.
+INFO  07:11:45 Application started. Press Ctrl+C to shut down.
+INFO  07:11:45 Hosting environment: Development
+INFO  07:11:45 Hosting environment: Development
+INFO  07:11:45 Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice
+INFO  07:11:45 Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice
+WARN  07:12:00 Failed to determine the https port for redirect.
+WARN  07:12:00 Failed to determine the https port for redirect.
+INFO  07:12:01  Http GET Request for Drug Details By Id
+INFO  07:12:08  Http GET Request for Drug Details By Id
+INFO  07:12:24  Http GET Request for Drug Details By Name
+INFO  07:12:31  Http GET Request for Drug Details By Name
+INFO  07:12:47  Http Get Request for Drug Details by Location and ID
+INFO  07:13:38 Now listening on: http://localhost:5001
+INFO  07:13:38 Now listening on: http://localhost:5001
+INFO  07:13:38 Application started. Press Ctrl+C to shut down.
+INFO  07:13:38 Application started. Press Ctrl+C to shut down.
+INFO  07:13:38 Hosting environment: Development
+INFO  07:13:38 Hosting environment: Development
+INFO  07:13:38 Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice
+INFO  07:13:38 Content root path: C:\Users\Ajith\Desktop\MailOrderPharmacy\DrugMicroservice
+WARN  07:13:53 Failed to determine the https port for redirect.
+WARN  07:13:53 Failed to determine the https port for redirect.
+INFO  07:13:53 Updating quantity
+INFO  07:14:07  Http GET Request for Drug Details By Id
+INFO  07:14:35  Http GET Request for Drug Details By Id
